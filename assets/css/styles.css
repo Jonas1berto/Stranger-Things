@@ -422,3 +422,20 @@ footer::after {
   right: -50px;
   transform: rotateZ(15deg);
 }
+
+.btnTop {
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  position: fixed;
+  bottom: 70px;
+  right: 50px;
+  z-index: 999;
+  cursor: pointer;
+  box-shadow: 2px 3px 19px -2px rgba(9, 9, 9, 0.75);
+  display: none
+}
+
+.btnTop img {
+  width: 50px;
+  height: 10%;
+}

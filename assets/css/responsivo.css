@@ -8,6 +8,17 @@
     font-size: 26px;
   }
 
+  .btnTop {
+    width: 17%;
+    height: auto;
+    right: 4%;
+  }
+
+  .btnTop img {
+    width: 40px;
+    height: auto;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
